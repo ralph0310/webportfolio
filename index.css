@@ -1,0 +1,367 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Raleway', sans-serif;
+	scroll-behavior: smooth;
+}
+
+.main-nav {
+	background-color: rgba(104, 216, 218, 0.9);
+	backdrop-filter: blur(5px);
+}
+
+.nav-link {
+	margin-right: 8px;
+}
+
+.main-nav-link:hover {
+	background-color: #5EC2C2 !important;
+	border-radius: 20px;
+}
+
+body {
+  background: url(images/background.svg)
+}
+
+.main-text {
+	color: white;
+	text-align: justify;
+}
+
+.self-pic	{
+	border: 10px solid #5EC2C2;
+    border-radius: 50%;
+    box-shadow: 5px 10px #1a181bb5;
+}
+
+.jumbotron-home {
+	background-color: #5EC2C2;
+	padding: 25px;
+  border-radius: 85px;
+  text-align: center;
+  margin-top: 25px;
+  box-shadow: 5px 10px #1a181bb5
+}
+
+.container-landing{
+	display: flex;
+  justify-content: center
+}
+
+.overview-carousel {
+	padding: 20px;
+}
+.overview {
+	text-align: center;
+  background-color: #1a181bb5;
+  border-radius: 20px;
+  box-shadow: 5px 10px #1a181bb5;
+  padding: 25px;
+}
+.project-overview {
+	text-align: center;
+	color: white;
+	border: 5px solid #5EC2C2;
+	background-color: #5EC2C2;
+	border-radius: 20px;
+  	display: inline-block;
+  	padding: 0 40px;
+}
+
+.container-about-me {
+	background-color: #1a181bb5;
+	border-radius: 20px;
+	border: 5px solid #5EC2C2;
+	box-shadow: 5px 10px #1a181bb5;
+	text-align: center;
+}
+
+.text-about-me {
+		padding: 0 40px;
+		text-align: center;
+		color: #fff;
+		border: 5px solid #5EC2C2;
+		background-color: #5EC2C2;
+		border-radius: 20px;
+	  display: inline-block;
+	  margin-bottom: 20px;
+}
+
+.skills	{
+		text-align: center;
+		color: #fff;
+		border: 5px solid #5EC2C2;
+		background-color: #5EC2C2;
+		border-radius: 20px;
+	  display: inline-block;
+	  padding-left: 50px;
+	  padding-right: 50px;
+}
+
+.project-card {
+	width: 18rem;
+}
+
+
+.progress-container {
+	display: flex;
+	align-items: center;
+}
+
+h4 {
+	margin-bottom: 0;
+}
+
+.progress {
+	flex: 1;
+}
+
+.progress-label {
+	width: 12%;
+}
+
+.fa-gitlab.fa-2xl {
+	color: #fff;
+}
+
+.gitlab-progress-bar {
+	background-color: #5EC2C2;
+	width: 80%;
+}
+
+.fa-html5 {
+	color: #fff;
+}
+
+.html-progress-bar {
+	background-color: #5EC2C2;
+	width: 90%;
+}
+
+.fa-css3-alt {
+	color: #fff;
+}
+
+.css-progress-bar {
+	background-color: #5EC2C2;
+	width: 80%;
+}
+
+.fa-bootstrap {
+	color: #fff;
+}
+
+.bootstrap-progress-bar {
+	background-color: #5EC2C2;
+	width: 80%;
+}
+
+.fa-square-js {
+	color: #fff;
+}
+
+.js-progress-bar {
+	background-color: #5EC2C2;
+	width: 70%;
+}
+
+.p-about-me {
+	color: white;
+}
+
+.container-projects {
+	background-color: #1a181bb5;
+	border-radius: 20px;
+    box-shadow: 5px 10px #5EC2C2;
+}
+
+.cards-bg {
+	text-align: center;
+  background-color: #5EC2C2;
+  border-radius: 20px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  padding: 25px;
+}
+
+.nav-tabs {
+	background-color: #5EC2C2;
+	justify-content:  space-evenly;
+}
+
+.project-header{
+	text-align: center;
+}
+
+.project-title {
+	padding: 0 40px;
+	text-align: center;
+	color: #fff;
+	border: 5px solid #5EC2C2;
+	background-color: #5EC2C2;
+	border-radius: 20px;
+   display: inline-block;
+}
+
+
+.bg-contact {
+	text-align: center;
+	background-color: #1a181bb5;
+	border-radius: 20px;
+	border: 5px solid #5EC2C2;
+	box-shadow: 5px 10px #1a181bb5;
+}
+
+.contact-text {
+		padding: 0 40px;
+		text-align: center;
+		color: #fff;
+		border: 5px solid #5EC2C2;
+		background-color: #5EC2C2;
+		border-radius: 20px;
+	  display: inline-block;
+	  margin-bottom: 20px;
+}
+
+button.active {
+	background-color: #1a181bb5 !important;
+	color: #fff !important;
+
+}
+
+button.nav-link {
+	background-color: rgba(232, 248, 193, 1.0);
+}
+
+.card a {
+	background-color: #5EC2C2 !important;
+}
+
+.footer {
+	background-color: rgba(104, 216, 218, 0.9);
+	backdrop-filter: blur(5px);
+}
+
+.footer span {
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+}
+
+.footer-icons a {
+	color: #fff;
+	text-decoration: none;
+}
+
+a.btn , .btn-submit-modal, a.nav-link {
+	color:  #fff;
+	font-size: 16px;
+}
+
+a.nav-link {
+	text-align: center;
+}
+
+a.btn:hover , .btn-submit-modal:hover {
+	color: rgba(255,255,255,.75);
+}
+
+.bg-contact-outer {
+	background-color: #453750;
+}
+
+
+
+.btn-submit-modal {
+	background-color: rgb(120 102 135 / 50%);
+}
+
+.socials {
+	font-size: 50px;
+}
+
+.social-text {
+	padding: 0 40px;
+	text-align: center;
+	color: #453750;
+	border: 5px solid #5EC2C2;
+	background-color: #5EC2C2;
+	border-radius: 20px;
+   display: inline-block;
+   margin-bottom: 20px;
+   color: #fff;
+}
+
+.contact-form {
+	background-color: #5EC2C2;
+	padding: 10px;
+}
+
+.container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border:0;
+}
+
+.address-text {
+	padding: 0 40px;
+	text-align: center;
+	color: #453750;
+	border: 5px solid #5EC2C2;
+	background-color: #5EC2C2;
+	border-radius: 20px;
+  display: inline-block;
+  margin-bottom: 20px;
+  color:  #fff;
+}
+
+.spacer {
+	height: 6rem;
+}
+
+
+}
+
+.btn-send {
+	background-color: #1a181bb5;
+}
+
+
+.tools-header {
+	padding: 0 40px;
+	text-align: center;
+	color: #fff;
+	border: 5px solid #5EC2C2;
+	background-color: #5EC2C2;
+	border-radius: 20px;
+   display: inline-block;
+}
+
+.container-tools {
+  background-color: #1a181bb5;
+  padding: 25px;
+  border-radius: 85px;
+  text-align: center;
+  margin-top: 25px;
+  box-shadow: 5px 10px #5EC2C2;
+  
+}
+
+.other-tools {
+	text-align: center;
+  background-color: #5EC2C2;
+  border-radius: 50px;
+  padding: 25px;
+  margin-top: 10px;
+}
