@@ -126,7 +126,7 @@ h4 {
 
 .gitlab-progress-bar {
 	background-color: #5EC2C2;
-	width: 80%;
+	width: 40%;
 }
 
 .fa-html5 {
@@ -135,7 +135,7 @@ h4 {
 
 .html-progress-bar {
 	background-color: #5EC2C2;
-	width: 90%;
+	width: 70%;
 }
 
 .fa-css3-alt {
@@ -144,7 +144,7 @@ h4 {
 
 .css-progress-bar {
 	background-color: #5EC2C2;
-	width: 80%;
+	width: 70%;
 }
 
 .fa-bootstrap {
@@ -153,7 +153,7 @@ h4 {
 
 .bootstrap-progress-bar {
 	background-color: #5EC2C2;
-	width: 80%;
+	width: 60%;
 }
 
 .fa-square-js {
@@ -162,7 +162,7 @@ h4 {
 
 .js-progress-bar {
 	background-color: #5EC2C2;
-	width: 70%;
+	width: 40%;
 }
 
 .p-about-me {
